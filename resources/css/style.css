@@ -41,8 +41,9 @@ html {
 @media only screen and (max-width: 760px) {
   .main-content {
     top: 2.5625rem;
-	position: absolute;
-  }
+    position: relative;
+    min-width: min-content;
+	}
 }
 
 /* Header */
